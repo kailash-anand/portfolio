@@ -40,6 +40,8 @@ import adani from "./company/adani.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+//Mine
+import fakestackoverflow from "./fakestackoverflow.png"
 
 export {
   logo,
@@ -73,6 +75,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  fakestackoverflow,
   python,
   csharp,
   cplusplus,

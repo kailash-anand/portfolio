@@ -25,8 +25,8 @@ import {
   scope,
   adani,
   carrent,
-  jobit,
   tripguide,
+  fakestackoverflow,
   c,
   java,
   python,
@@ -207,16 +207,16 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Fake Stack Overflow",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a website like Stack Overflow using React and MongoDB, enabling user profiles and CRUD operations. Ensured secure passwords with bcrypt and implemented responsive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
@@ -224,8 +224,8 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: fakestackoverflow,
+    sourceCodeLink: "https://github.com/sbu-ckane-s24-cse316-pa04org/pa04-butter-chicken.git",
   },
   {
     name: "Trip Guide",
