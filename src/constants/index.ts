@@ -24,9 +24,9 @@ import {
   sbu,
   scope,
   adani,
-  carrent,
   fakestackoverflow,
   xcode,
+  lilota,
   c,
   java,
   python,
@@ -186,25 +186,25 @@ const experiences: TExperience[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Lilota",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Take the best features from Arduino MicroPython, CircuitPython, ESPHome, Tasmota and put them together into one package",
     tags: [
       {
-        name: "react",
+        name: "c",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "esp-idf",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "esp32",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: lilota,
+    sourceCodeLink: "https://github.com/COMPAS-Lab/lilota.git",
   },
   {
     name: "Xcode",

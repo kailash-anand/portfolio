@@ -43,6 +43,7 @@ import tripguide from "./tripguide.png";
 //Mine
 import fakestackoverflow from "./fakestackoverflow.png"
 import xcode from "./xcode.png"
+import lilota from "./lilota.png"
 
 export {
   logo,
@@ -78,6 +79,7 @@ export {
   tripguide,
   fakestackoverflow,
   xcode,
+  lilota,
   python,
   csharp,
   cplusplus,
