@@ -188,7 +188,7 @@ const projects: TProject[] = [
   {
     name: "Lilota",
     description:
-      "Take the best features from Arduino MicroPython, CircuitPython, ESPHome, Tasmota and put them together into one package",
+      "Developing a IoT Runtime by taking the best features from Arduino MicroPython, CircuitPython, ESPHome, Tasmota and put them together into one package. Currently under development",
     tags: [
       {
         name: "c",
