@@ -25,8 +25,8 @@ import {
   scope,
   adani,
   carrent,
-  tripguide,
   fakestackoverflow,
+  xcode,
   c,
   java,
   python,
@@ -207,6 +207,27 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
+    name: "Xcode",
+    description:
+      "To provide doctors at Stony Brook University an effective way of keeping track of patients’ recovery progress during their pre and post surgery periods, through their personal mobile device. ",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: xcode,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
     name: "Fake Stack Overflow",
     description:
       "Developed a website like Stack Overflow using React and MongoDB, enabling user profiles and CRUD operations. Ensured secure passwords with bcrypt and implemented responsive design.",
@@ -226,27 +247,6 @@ const projects: TProject[] = [
     ],
     image: fakestackoverflow,
     sourceCodeLink: "https://github.com/sbu-ckane-s24-cse316-pa04org/pa04-butter-chicken.git",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
   },
 ];
 

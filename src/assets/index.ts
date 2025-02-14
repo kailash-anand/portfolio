@@ -42,6 +42,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 //Mine
 import fakestackoverflow from "./fakestackoverflow.png"
+import xcode from "./xcode.png"
 
 export {
   logo,
@@ -76,6 +77,7 @@ export {
   jobit,
   tripguide,
   fakestackoverflow,
+  xcode,
   python,
   csharp,
   cplusplus,
