@@ -51,7 +51,7 @@ export const config: TConfig = {
   },
   contact: {
     p: "Get in touch",
-    h2: "Contact.",
+    h2: "Contact",
     form: {
       name: {
         span: "Your Name",
@@ -67,7 +67,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
+      h2: "Overview",
       content: `I'm a passionate software developer with a strong foundation in systems programming,
        full-stack development, and security. With hands-on experience in Java, C, and Python, 
        I specialize in backend optimizations, scalable architectures, and secure software solutions. 
@@ -79,19 +79,19 @@ export const config: TConfig = {
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Work Experience",
     },
     skills: {
       p: "What I can do",
-      h2: "Skills.",
+      h2: "Skills",
     },
     feedbacks: {
       p: "What others say",
-      h2: "Testimonials.",
+      h2: "Testimonials",
     },
     works: {
       p: "My work",
-      h2: "Projects.",
+      h2: "Projects",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
     links to code repositories and live demos in it. It reflects my

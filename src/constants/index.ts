@@ -53,6 +53,10 @@ export const navLinks: TNavLink[] = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Resume",
+  },
 ];
 
 const services: TService[] = [
@@ -138,7 +142,7 @@ const experiences: TExperience[] = [
     date: "May 2023 - July 2023",
     points: [
       "Built and deployed custom web applications using Appian, a low-code process automation platform, streamlining business workflows.",
-      "Designed interactive user interfaces with Appian’s SAIL framework, ensuring responsiveness and cross-device compatibility.",
+      "Designed interactive user interfaces with Appian's SAIL framework, ensuring responsiveness and cross-device compatibility.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -163,7 +167,7 @@ const experiences: TExperience[] = [
     iconBg: "#383E56",
     date: "Aug 2024 - Dec 2024",
     points: [
-      "Provided tutoring in OOP, Data Structures, and Logic, improving students’ grades.",
+      "Provided tutoring in OOP, Data Structures, and Logic, improving students' grades.",
       "Provided one-on-one support in programming concepts, helping students build a strong foundation in software development.",
       "Developed quizzes and coding assignments to assess student understanding and reinforce key concepts.",
       "Encouraged collaborative learning through peer programming sessions and group discussions.",
@@ -209,7 +213,7 @@ const projects: TProject[] = [
   {
     name: "Xcode",
     description:
-      "To provide doctors at Stony Brook University an effective way of keeping track of patients’ recovery progress during their pre and post surgery periods, through their personal mobile device. ",
+      "To provide doctors at Stony Brook University an effective way of keeping track of patients' recovery progress during their pre and post surgery periods, through their personal mobile device. ",
     tags: [
       {
         name: "nodejs",

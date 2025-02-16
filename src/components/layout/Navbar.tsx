@@ -65,7 +65,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
-          <p className="flex cursor-pointer text-[18px] font-bold text-white ">
+          <p className="flex cursor-pointer text-[18px] font-bold text-white">
             {config.html.title}
           </p>
         </Link>
@@ -78,7 +78,11 @@ const Navbar = () => {
                 active === nav.id ? "text-white" : "text-secondary"
               } cursor-pointer text-[18px] font-medium hover:text-white`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === "resume" ? (
+                <Link to="/resume">{nav.title}</Link>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -103,11 +107,13 @@ const Navbar = () => {
                   className={`font-poppins cursor-pointer text-[16px] font-medium ${
                     active === nav.id ? "text-white" : "text-secondary"
                   }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                  }}
+                  onClick={() => setToggle(!toggle)}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.id === "resume" ? (
+                    <Link to="/resume">{nav.title}</Link>
+                  ) : (
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
             </ul>
