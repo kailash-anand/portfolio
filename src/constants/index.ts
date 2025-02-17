@@ -208,7 +208,7 @@ const projects: TProject[] = [
       },
     ],
     image: lilota,
-    sourceCodeLink: "https://github.com/COMPAS-Lab/lilota.git",
+    sourceCodeLink: "https://github.com/kailash-anand",
   },
   {
     name: "Xcode",
@@ -229,7 +229,7 @@ const projects: TProject[] = [
       },
     ],
     image: xcode,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/kailash-anand",
   },
   {
     name: "Fake Stack Overflow",
@@ -250,7 +250,7 @@ const projects: TProject[] = [
       },
     ],
     image: fakestackoverflow,
-    sourceCodeLink: "https://github.com/sbu-ckane-s24-cse316-pa04org/pa04-butter-chicken.git",
+    sourceCodeLink: "https://github.com/kailash-anand",
   },
 ];
 

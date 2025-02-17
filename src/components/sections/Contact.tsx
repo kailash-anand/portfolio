@@ -50,7 +50,7 @@ const Contact = () => {
 
         <div className="mt-5 flex gap-4">
           <a
-            href="www.linkedin.com/in/kailash-anand-2847782a9"
+            href="https://www.linkedin.com/in/kailash-anand-2847782a9"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-white"
