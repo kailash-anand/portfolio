@@ -48,12 +48,27 @@ const About = () => {
     <>
       <Header useMotion={true} {...config.sections.about} />
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
-      >
-        {config.sections.about.content}
-      </motion.p>
+      <div className="mt-4 flex flex-wrap items-center gap-10 lg:flex-nowrap">
+        <motion.div
+          variants={fadeIn("right", "", 0.1, 1)}
+          className="flex-1"
+        >
+          <motion.p className="text-secondary text-[17px] leading-[30px]">
+            {config.sections.about.content}
+          </motion.p>
+        </motion.div>
+
+        <motion.div
+          variants={fadeIn("left", "", 0.1, 1)}
+          className="flex-1"
+        >
+          <img
+            src="/personal.jpeg"
+            alt="Kailash Anand"
+            className="w-full h-[400px] rounded-lg object-cover mx-auto"
+          />
+        </motion.div>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
         {services.map((service, index) => (
